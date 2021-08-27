@@ -21,4 +21,3 @@ data = min_max_scaler.fit_transform(X) #transformasi MinMax untuk fitur
 dataset = pd.DataFrame({'Age':data[:,0],'Income':data[:,1],'Spending Score':data[:,2],'Customer ID':array[:,0],'Gender':array[:,1]})
 print("dataset setelah dinormalisasi :")
 print(dataset.head(10))
-print(dataset.head(10))
